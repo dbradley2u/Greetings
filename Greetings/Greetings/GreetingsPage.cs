@@ -7,12 +7,16 @@ namespace Greetings
     {
         public GreetingsPage()
         {
+            
             Content = new Label
             {
                 Text = "Greetings, Xamarin.Forms!",
-                HorizontalTextAlignment = TextAlignment.Center,
-                VerticalTextAlignment = TextAlignment.Center
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Center,
+                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                FontAttributes = FontAttributes.Bold | FontAttributes.Italic
             }; 
+            
 
         }
     }

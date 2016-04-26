@@ -11,7 +11,7 @@ namespace Greetings
     {
         public App()
         {
-            MainPage = new GreetingsPage(); 
+            MainPage = new NamedFontSizesPage(); 
         }
 
         protected override void OnStart()
